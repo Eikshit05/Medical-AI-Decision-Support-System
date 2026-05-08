@@ -34,7 +34,7 @@ export function AIFloatingButton() {
           <div className="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center bg-white/20 backdrop-blur-sm">
             <Image
               src="/logo.png"
-              alt="MedLedger AI Logo"
+              alt="Medical AI Decision Support System Logo"
               width={24}
               height={24}
               className="object-contain"

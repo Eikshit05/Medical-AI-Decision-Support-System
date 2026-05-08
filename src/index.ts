@@ -43,7 +43,7 @@ app.use(express.json());
 
 // Health check
 app.get("/health", (req, res) => {
-  res.json({ status: "ok", message: "MedLedger AI Backend" });
+  res.json({ status: "ok", message: "Medical AI Decision Support System Backend" });
 });
 
 // Routes
@@ -78,7 +78,7 @@ export default app;
 // Only start server in local development (not on Vercel)
 if (process.env.VERCEL !== '1' && !process.env.VERCEL_ENV) {
   app.listen(PORT, () => {
-    console.log(`🚀 MedLedger AI Backend running on http://localhost:${PORT}`);
+    console.log(`🚀 Medical AI Decision Support System Backend running on http://localhost:${PORT}`);
     console.log(`📡 Profile API: http://localhost:${PORT}/api/profile`);
     console.log(`🔐 Permissions API: http://localhost:${PORT}/api/permissions`);
     console.log(`👤 Register Role API: http://localhost:${PORT}/api/register-role`);

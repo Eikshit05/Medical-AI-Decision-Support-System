@@ -23,7 +23,7 @@ export async function deriveEncryptionKey(
 ): Promise<Uint8Array> {
   try {
     // Sign a fixed message with the wallet
-    const message = "MedLedger AI Profile Encryption Key";
+    const message = "Medical AI Decision Support System Profile Encryption Key";
     
     // Use signMessage if available (preferred - accepts plain text)
     // Otherwise use signData (requires hex-encoded payload)

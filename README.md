@@ -18,7 +18,7 @@ Healthcare data management faces critical challenges in today's digital landscap
 
 ## 💡 Our Solution
 
-**MedLedger AI** is a revolutionary privacy-preserving healthcare platform that empowers patients with complete control over their medical data through blockchain technology and zero-knowledge proofs. Our platform ensures:
+**Medical AI Decision Support System** is a revolutionary privacy-preserving healthcare platform that empowers patients with complete control over their medical data through blockchain technology and zero-knowledge proofs. Our platform ensures:
 
 - **Patient Sovereignty**: Patients own and control their medical records through Cardano wallet-based identity
 - **Zero-Knowledge Privacy**: Medical data is encrypted client-side and never decrypted by the backend
@@ -188,7 +188,7 @@ Healthcare data management faces critical challenges in today's digital landscap
 
 #### 🤖 AI Healthcare Agents
 
-MedLedger AI features three specialized AI agents that help patients and healthcare providers with different aspects of medical management:
+Medical AI Decision Support System features three specialized AI agents that help patients and healthcare providers with different aspects of medical management:
 
 ##### 1. 📋 Explainer Agent
 **Purpose**: Makes complex medical information accessible to everyone
@@ -262,7 +262,7 @@ MedLedger AI features three specialized AI agents that help patients and healthc
 - **Version Independence**: Agents can be updated independently without affecting others
 
 **Data Flow**:
-1. **Frontend Request**: User interacts with agent interface in MedLedger AI
+1. **Frontend Request**: User interacts with agent interface in Medical AI Decision Support System
 2. **Backend Routing**: Express server routes request to appropriate agent endpoint
 3. **Agent Processing**: Agent processes request using specialized AI models
 4. **Response Formatting**: Agent returns structured response with job status and results
@@ -306,7 +306,7 @@ INSURANCE_AGENT_ID=your_agent_id
 
 ## 📋 Prerequisites
 
-Before setting up MedLedger AI, ensure you have the following installed:
+Before setting up Medical AI Decision Support System, ensure you have the following installed:
 
 ### Required Software
 1. **Node.js 18+** 
@@ -353,7 +353,7 @@ Before setting up MedLedger AI, ensure you have the following installed:
 
 ### Vercel Deployment (Recommended)
 
-**MedLedger AI is now fully configured for Vercel deployment!** The application deploys both frontend and backend as a single deployment.
+**Medical AI Decision Support System is now fully configured for Vercel deployment!** The application deploys both frontend and backend as a single deployment.
 
 #### Prerequisites
 - Vercel account (free tier works)
@@ -365,7 +365,7 @@ Before setting up MedLedger AI, ensure you have the following installed:
 1. **Connect to Vercel:**
    - Go to [vercel.com](https://vercel.com)
    - Click "Add New..." → "Project"
-   - Import your GitHub repository: `Anajrajeev/MedLedger-AI`
+   - Import your GitHub repository: `Anajrajeev/Medical-AI-Decision-Support-System`
 
 2. **Configure Environment Variables:**
    Add these required variables in Vercel dashboard:
@@ -398,13 +398,13 @@ If you prefer separate deployments:
 
 ## 🚀 Quick Setup Guide (Local Development)
 
-Follow these steps to get MedLedger AI running on your local machine:
+Follow these steps to get Medical AI Decision Support System running on your local machine:
 
 ### Step 1: Clone the Repository
 
 ```bash
 git clone <repository-url>
-cd "MedLedger AI"
+cd "Medical AI Decision Support System"
 ```
 
 ### Step 2: Install Dependencies
@@ -496,7 +496,7 @@ npm run server:dev
 
 You should see:
 ```
-🚀 MedLedger AI Backend running on http://localhost:4000
+🚀 Medical AI Decision Support System Backend running on http://localhost:4000
 📡 Profile API: http://localhost:4000/api/profile
 🔐 Permissions API: http://localhost:4000/api/permissions
 ...
@@ -504,7 +504,7 @@ You should see:
 
 **Verify backend is running:**
 - Open browser: `http://localhost:4000/health`
-- Should return: `{"status":"ok","message":"MedLedger AI Backend"}`
+- Should return: `{"status":"ok","message":"Medical AI Decision Support System Backend"}`
 
 ### Step 6: Start the Frontend
 
@@ -558,7 +558,7 @@ You should see:
 ## 📁 Project Structure
 
 ```
-MedLedger AI/
+Medical AI Decision Support System/
 ├── app/                    # Next.js App Router pages
 │   ├── page.tsx           # Main dashboard
 │   ├── access-requests/  # Access request management

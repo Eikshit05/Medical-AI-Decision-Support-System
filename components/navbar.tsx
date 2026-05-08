@@ -142,7 +142,7 @@ export function Navbar() {
             <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center shadow-lg">
               <Image
                 src="/logo.png"
-                alt="MedLedger AI Logo"
+                alt="Medical AI Decision Support System Logo"
                 width={40}
                 height={40}
                 className="object-contain"
@@ -150,7 +150,7 @@ export function Navbar() {
               />
             </div>
             <span className="text-xl font-semibold text-gray-800">
-              MedLedger AI
+              Medical AI Decision Support System
             </span>
           </Link>
 

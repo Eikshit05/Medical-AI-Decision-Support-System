@@ -463,7 +463,7 @@ export default function DashboardPage() {
             <p className="text-sm text-gray-600">
               Eternl wallet is required to securely access your encrypted
               medical dashboard. Please install the Eternl browser extension and
-              reload the page to continue using MedLedger AI.
+              reload the page to continue using Medical AI Decision Support System.
             </p>
           </Card>
         </div>

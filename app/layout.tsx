@@ -7,7 +7,7 @@ import { AIFloatingButton } from "@/components/ai-fab";
 const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
 
 export const metadata: Metadata = {
-  title: "MedLedger AI - Cardano Health Agents",
+  title: "Medical AI Decision Support System - Cardano Health Agents",
   description:
     "Privacy-preserving medical data platform powered by Cardano blockchain and Lit Protocol",
   icons: {

@@ -120,7 +120,7 @@ export function RoleSelection({ walletAddress, onRoleSelected }: RoleSelectionPr
             <div className="w-16 h-16 rounded-lg overflow-hidden flex items-center justify-center shadow-lg">
               <Image
                 src="/logo.png"
-                alt="MedLedger AI Logo"
+                alt="Medical AI Decision Support System Logo"
                 width={64}
                 height={64}
                 className="object-contain"

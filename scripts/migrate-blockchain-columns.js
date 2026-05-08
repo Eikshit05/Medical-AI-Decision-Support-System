@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * MedLedger AI - Database Migration Script
+ * Medical AI Decision Support System - Database Migration Script
  * 
  * Adds new blockchain-related columns to the access_requests table:
  * - validator_hash: Aiken validator script hash
@@ -23,7 +23,7 @@ if (!DATABASE_URL) {
 }
 
 async function migrate() {
-  console.log('🔄 MedLedger AI - Database Migration');
+  console.log('🔄 Medical AI Decision Support System - Database Migration');
   console.log('━'.repeat(50));
   console.log('Adding blockchain columns to access_requests table...\n');
 

@@ -1,10 +1,10 @@
 # DigitalOcean App Platform Deployment Instructions
 
-This guide explains how to deploy the MedLedger-AI project on DigitalOcean App Platform, with each agent running as a separate service.
+This guide explains how to deploy the Medical-AI-Decision-Support-System project on DigitalOcean App Platform, with each agent running as a separate service.
 
 ## Overview
 
-The MedLedger-AI project uses a universal Dockerfile that can run any agent. Each agent is deployed as a separate **Worker** component on DigitalOcean App Platform, with the CMD overridden per service to run the specific agent.
+The Medical-AI-Decision-Support-System project uses a universal Dockerfile that can run any agent. Each agent is deployed as a separate **Worker** component on DigitalOcean App Platform, with the CMD overridden per service to run the specific agent.
 
 ## Prerequisites
 
