@@ -1,4 +1,4 @@
-# MedLedger AI - Privacy-Preserving Healthcare Platform
+# Medical AI Decision Support System - Privacy-Preserving Healthcare Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue.svg)](https://www.typescriptlang.org/)
